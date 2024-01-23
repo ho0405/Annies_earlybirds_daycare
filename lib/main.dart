@@ -1,3 +1,4 @@
+import 'package:earlybirds_daycare/pages/signin_page.dart';
 import 'package:flutter/material.dart';
 import 'pages/intro_page.dart';
 import 'pages/enrollment_page.dart';
@@ -16,6 +17,7 @@ class MyApp extends StatelessWidget {
       home: IntroPage(),
       routes: {
         '/intropage': (context) => const IntroPage(),
+        '/signinpage': (context) => const SigninPage(),
         '/enrollmentpage': (context) => const EnrollmentPage(),
       },
     );

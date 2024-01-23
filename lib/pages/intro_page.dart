@@ -20,8 +20,8 @@ class _IntroPageState extends State<IntroPage>
 
     _animationController = AnimationController(
       vsync: this,
-      duration: Duration(milliseconds: 1000),
-      reverseDuration: Duration(milliseconds: 1000),
+      duration: Duration(milliseconds: 1500),
+      reverseDuration: Duration(milliseconds: 1500),
     );
 
     _scaleAnimation = Tween<double>(begin: 1.0, end: 1.2).animate(
@@ -112,7 +112,7 @@ class _IntroPageState extends State<IntroPage>
               text: "Join the Fun",
               onTap: () {
                 // Go to enrollment page or any other desired page
-                Navigator.pushNamed(context, '/enrollmentpage');
+                Navigator.pushNamed(context, '/signinpage');
               },
             )
           ],
