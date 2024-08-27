@@ -167,11 +167,11 @@ class _SigninPageState extends State<SigninPage> {
                               height: 50,
                               decoration: BoxDecoration(
                                 borderRadius: BorderRadius.circular(50),
-                                color: Colors.blue,
+                                color: Colors.black,
                               ),
                               child: Center(
                                 child: Text(
-                                  "Facebook",
+                                  "Google",
                                   style: TextStyle(color: Colors.white),
                                 ),
                               ),
@@ -185,11 +185,11 @@ class _SigninPageState extends State<SigninPage> {
                               height: 50,
                               decoration: BoxDecoration(
                                 borderRadius: BorderRadius.circular(50),
-                                color: Colors.black,
+                                color: Colors.blue,
                               ),
                               child: Center(
                                 child: Text(
-                                  "Github",
+                                  "Facebook",
                                   style: TextStyle(
                                     color: Colors.white,
                                     fontWeight: FontWeight.bold,
